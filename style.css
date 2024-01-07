@@ -175,7 +175,7 @@ font-weight: 400;
 line-height: normal;
 }
 .last-btn{
-    color: #F15B22;
+ color: #F15B22;
 
 font-size: 20px;
 
@@ -186,4 +186,7 @@ border-radius: 8px;
 background: #FFF;
 border: 0;
 margin-top: 10px;
+}
+ul{
+    list-style-type: none;
 }
