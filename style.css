@@ -215,3 +215,68 @@ body {
 ul {
     list-style-type: none;
 }
+.hide{
+    display: none;
+}
+#web{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .header{
+        width: 100%;
+        height: 300px;
+        background-size: contain;
+    }
+    
+    .container{
+       max-width: 300px; 
+        text-align: right;
+        margin-left: auto;
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    .header-title{
+        font-size: 1em;
+    }
+    ..header-description {
+        line-height: 16px;
+    }
+    .btn-primary{
+        margin-top: 5px;
+        padding: 7px;
+        margin-bottom: 5px;
+        border: 1px solid;
+
+    }
+    .failure-section{
+        flex-direction: column;
+
+    }
+   .failure-image,img{
+    width: 100%;
+   }
+   .plan{
+    flex-direction: column;
+   }
+   #web{
+    width: 150px;
+    height: 150px;
+}
+.image-section{
+    width: 100%;
+    
+    
+}
+.future{
+    flex-direction: column;
+    width: 350px;
+}
+.future-description{
+    width: 100%;
+}
+.tile{
+    padding-top: 25px;
+}
+
+}
